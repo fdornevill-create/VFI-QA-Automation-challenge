@@ -29,14 +29,15 @@ Your task is to write some end-to-end tests to demonstrate your test automation 
    1. Enters some valid values into the Buy ETH form
    1. Make sure the Total field has the correct value (Total = price \* Amount)
    1. Verifies that you can't submit the form since you are not logged in
-1. Write a data last end-to-end (WebSockets) test that
+
+
+## Bonus Round (not required, but nice-to-have)
+- Write a data last end-to-end (WebSockets) test that
    1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
    1. Under the hood, the UI uses WebSockets to fetch tickers
    1. Verifies that the data is loaded in the tickers,
    1. Verifies there is a consistent stream of data.
    1. Verifies the time it takes the socket connection to connect is less than 1 second
-
-## Bonus Round (not required, but nice-to-have)
 
 - Usage of code quality tools such as eslint, prettier, typescript
 - Integration of your tests into a CI pipeline
